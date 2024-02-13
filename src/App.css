@@ -1,0 +1,17 @@
+:root {
+    --rotate: 0;
+}
+
+.small-circles-container>.small-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+
+
+}
+
+.small-circles-container {
+    transition: transform 0.2s ease;
+    /* Hozzáadott transition tulajdonság */
+}
+
